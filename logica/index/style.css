@@ -1,0 +1,68 @@
+
+body{
+	background: #a0a0a0
+}
+#banner{
+	width: 100%;
+}
+
+.principal{
+	background: #cccccc
+	padding: 30px;
+}
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center
+}
+
+h1{
+	text-align:center
+}
+p{
+text-align: center;
+ } 
+#nms{
+	font-size:20px;text-align: center
+} 
+
+em strong{
+	color:  red;
+}
+
+strong {
+	color:  blue;
+}
+.itens{
+	font-style: italic;
+}
+.beneficios{
+	background: #FFFFFF;
+	padding: 20px ;
+}
+h2 {
+
+	font-size: 3rem;
+    font-style: italic;
+    padding-left: 50px;
+	text-align: center
+}
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembenefica {
+	width: 50% ;
+  
+}
+.agendamento{
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	margin-right: 35%;
+}

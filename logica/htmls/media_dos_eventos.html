@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+<h1> ===PROGRAMA FUNÇÕES===</h1>
+<script>
+ //==========FUNÇÕES=============
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+    //============================
+
+    var totalDeEventos = parseInt(prompt("INFORME:Quantidade de eventos"));
+    var numero = 1;
+    var totalDeGastos = 0;
+        
+        while(numero <= totalDeEventos){
+            var gasto = parseInt(prompt("INFORME:Gasto do evento"));
+            totalDeGastos = totalDeGastos + gasto;
+            numero++; }
+    var mediaDosEventos = totalDeGastos / totalDeEventos;
+        mostra("A média dos gastos dos eventos é " + mediaDosEventos);
+        pulaLinha();
+        mostra("====FIM====")
+        alert("Esse programa chegou ao fim, aperte F5 para um novo calculo.");
+
+</script>
